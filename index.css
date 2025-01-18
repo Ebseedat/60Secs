@@ -1,0 +1,61 @@
+body{
+    background-color: #22333b;
+}
+
+.navbar {
+    background-color: #f4845f !important;
+}
+
+.card {
+    border-color: #f4845f !important;
+    background-color: #22333b;
+   color: #f4845f;
+}
+
+.card-header {
+    border-color: #f4845f !important;
+    background-color: #22333b;
+   color: #f4845f;
+}
+
+button {
+    background: none;
+    color:#f4845f;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+    
+  }
+  
+  button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.55em);
+    cursor: pointer;
+  }
+
+
+.custom-checkbox-list {
+    list-style-type: none;
+    padding: 0;
+   
+}
+
+.custom-checkbox-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+   
+}
+
+.custom-checkbox-item span {
+    margin-right: 10px;
+}
+
+.form-check-input{
+    border-color: #f4845f;
+    background-color: #22333b;
+}
